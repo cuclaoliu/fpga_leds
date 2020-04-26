@@ -1,0 +1,34 @@
+# Ignore compile database directory
+db/
+incremental_db/
+simulation/
+*/*
+*.*~
+
+# Ignore folder named `output`
+output_files/
+
+# Ignore folder named `.qsys_edit`
+.qsys_edit
+
+# Ignore all .rpt and .db files
+*.rpt
+*.db
+*.bak
+*.sopcinfo
+*.qws
+*description.txt
+*.wlf
+*.mti
+*.csv
+*.qdf
+# all files but cherished ones
+*
+!*.qpf
+!*.qsf
+!*.bdf
+!*.vwf
+!*.v
+!*.vhd
+!.gitignore
+!*.bsf
